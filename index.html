@@ -264,7 +264,7 @@
       section { padding: 78px 0; }
       .section-head { align-items: start; flex-direction: column; margin-bottom: 27px; }
       .release-grid { grid-template-columns: 1fr 1fr; gap: 24px 12px; }
-      .release:last-child { display: none; }
+      .release-meta { align-items: start; flex-direction: column; gap: 5px; }
       .cover-title { font-size: 22px; }
       .video-layout, .social-layout, .premiere-inner, .studio-layout { grid-template-columns: 1fr; gap: 32px; }
       .video-frame { min-height: 230px; }
@@ -277,6 +277,7 @@
       .footer-row { align-items: start; flex-direction: column; }
     }
     @media (max-width: 420px) {
+      .release-grid { grid-template-columns: 1fr; }
       .notify-form { flex-direction: column; }
       .notify-form button { min-height: 46px; }
       .booking-form { grid-template-columns: 1fr; }
